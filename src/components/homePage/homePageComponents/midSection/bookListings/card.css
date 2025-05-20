@@ -1,0 +1,71 @@
+.card {
+    width: 330px;
+    height: 289px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section {
+    width: 167px;
+    height: 187px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 500px;
+    display: block;
+}
+
+.info-section {
+    width: 163px;
+    height: 102px;
+}
+
+.book-title {
+    color: #064FA4;
+    font-family: 'Georama';
+}
+
+.book-author {
+    color: #8C8C8C;
+    font-family: 'Exo 2';
+}
+
+.book-price {
+    color: #8C8C8C;
+    font-family: 'Exo 2';
+}
+
+.add-to-cart-button {
+    width: 102px;
+    height: 33px;
+    background-color: #064FA4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-left: 30px;
+}
+
+.add-to-cart-text {
+    font-family: 'Georama';
+    color: #ffffff;
+}
+
+/* ===== Book design ===== */
+.book-image {
+    width: 91px;
+    height: 138px;
+    z-index: 3;
+}

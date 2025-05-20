@@ -4,24 +4,25 @@ import './topSection.css'
 
 export const TopSection = () => {
     return (
-        
+        <>
         <div
         className='home-top-section'>
-            <img 
+            {/* <img 
             className='left-top-lamp'
             src='../src/assets/images/leftTopLamp.svg' alt='Top Left Lamp'>
 
-            </img>
+            </img> */}
 
             <Navbar 
             className='navbar'/>
 
-            <img 
+            {/* <img 
             className='right-top-lamp'
             src='../src/assets/images/rightTopLamp.svg' alt='Top Right Lamp'>
 
-            </img>
+            </img> */}
         </div>
+        </>
     
     )
 }
