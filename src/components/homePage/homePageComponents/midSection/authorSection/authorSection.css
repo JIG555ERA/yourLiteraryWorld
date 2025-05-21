@@ -1,17 +1,18 @@
-/* ==== MAIN BOOKS LISTING SECTION ==== */
-.book-listings-main {
-    position: absolute;
+/* ==== AUTHOR MAIN SECTION ==== */
+.author-listings-main {
+    position: relative;
     width: 100%;
-    margin-top: 40px;
-    z-index: 1;
+    height: auto;
+    margin-top: 100px;
 }
 
-/* ==== TITLE LISTING SECTION ==== */
-.books-listing-title-section {
+/* ==== AUTHOR LISTING SECTION ==== */
+.author-listing-title-section {
     width: auto;
     height: 35px;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .selected-category-title-section {
@@ -82,29 +83,31 @@
     background-color: transparent;
 }
 
+/* ==== AUTHOR CARD SECTION ==== */
 
-/* ==== BOOKS LISTING SECTION ==== */
-.books-listing-section {
-    width: 100%;
-    height: 289px;
-    background-color: none;
-    margin-top: 40px;
+.author-card-section {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 197px;
+    width: 100%;
 }
 
-.card {
-    display: block;
-    width: 330px;
-    height: 289px;
-    background-color: none;
+.author-card {
+    width: 403px;
+    height: 197px;
+    border-radius: 12px;
+    background-color: red;
     margin-right: 40px;
 }
 
-.image-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.author-image-section {
+    width: 132px;
+    height: 197px;
 }
 
+.author-image {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}

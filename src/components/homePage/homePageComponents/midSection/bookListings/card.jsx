@@ -41,19 +41,6 @@ const BookCard = ({ book }) => {
             <div className="image-section">
                 <div
                 className="container">
-                    {/* back cover */}
-                    <div style={{ backgroundColor: `rgb(${colors[0].join(",")})`, width:'134px', height:'158px', zIndex: 3}} />
-                    {/* back cover right double lines */}
-                    <div style={{ backgroundColor: "white" }} />
-                    {/* white page */}
-                    <div style={{ backgroundColor: "white" }} />
-                    {/* book mark */}
-                    <div style={{ backgroundColor: `rgb(${colors[1].join(",")})` }} />
-                    {/* front cover page */}
-                    <div style={{ backgroundColor: `rgb(${colors[1].join(",")})` }} />
-                    {/* front cover page left double lines */}
-                    <div style={{ backgroundColor: `rgb(${colors[1].join(",")})` }} />
-
                     {/* main book image */}
                     <div>
                         <img
@@ -64,6 +51,37 @@ const BookCard = ({ book }) => {
                             crossOrigin="anonymous"
                         />
                     </div>
+                    {/* back cover */}
+                    <div 
+                    className="backCover"
+                    style={{ backgroundColor: `rgb(${colors[0].join(",")})`, width:'132px', height:'158px', zIndex: 2, borderBottomLeftRadius: '5px'}} />
+                    {/* white page */}
+                    <div 
+                    className="whitePage"
+                    style={{ backgroundColor: "white" }} />
+                    {/* back cover right double lines */}
+                    {/* first line */}
+                    <div 
+                    className="first-line"/>
+                    {/* second line */}
+                    <div 
+                    className="second-line"/>
+                    {/* third line */}
+                    <div 
+                    className="third-line"/>
+                    {/* book mark */}
+                    <div 
+                    className="bookMark" />
+                    {/* front cover page */}
+                    <div 
+                    className="frontCoverPage"
+                    style={{ backgroundColor: `rgb(${colors[0].join(",")})` }} />
+                    {/* front cover page left double lines */}
+                    <div 
+                    className="frontLine"
+                    style={{ backgroundColor: `rgb(${colors[1].join(",")})` }} />
+
+                    
 
                 </div>
             </div>

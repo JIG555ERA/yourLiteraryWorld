@@ -3,6 +3,7 @@ import './midSection.css'
 import { SearchBar } from './searchBar/searchBar'
 import { CategorySection } from './categorySection/categorySection'
 import { BookListings } from './bookListings/bookListings'
+import { AuthorSection } from './authorSection/authorSection'
 
 export const MidSection = () => {
     return (
@@ -11,6 +12,7 @@ export const MidSection = () => {
             <SearchBar />
             <CategorySection />
             <BookListings />
+            {/* <AuthorSection /> */}
         </div>
     )
 }
